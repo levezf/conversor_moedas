@@ -101,7 +101,7 @@ class _HomeState extends State<Home> {
                       crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: <Widget>[
                         Icon(Icons.monetization_on,
-                            size: 125.0, color: Colors.amber),
+                            size: 150.0, color: Colors.amber),
                         buildTextField("Reais","R\$ ", realController, _realChange),
                         Divider(),
                         buildTextField("Dólares","US\$ ",dolarController, _dolarChange),
